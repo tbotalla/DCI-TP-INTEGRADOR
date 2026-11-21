@@ -1,0 +1,51 @@
+# --- KiCad (proyecto battery-charger y futuros) ---
+# Bloqueos y restos al tener el proyecto abierto
+*.lck
+*~
+
+# Copias / autosave locales
+*-backups/
+_autosave-*
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.bak
+*.bak-*
+
+# Preferencias de ventana por usuario (se regeneran al abrir)
+*.kicad_prl
+
+# Caché de footprint (se regenera)
+fp-info-cache
+
+# Historial local del plugin History (no versionar)
+**/.history/
+
+# Salidas de verificación (regenerables)
+*-erc.rpt
+*-erc.txt
+*-erc.html
+*.net
+*.cmp
+*.csv
+
+# --- Herramientas / agente (análisis fuera del TP) ---
+analysis/
+/tmp/
+
+# --- Python (scripts auxiliares en pcb/) ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# --- SO / editor ---
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.directory
+
+# --- Credenciales / secretos ---
+.env
+.env.*
+*.pem
