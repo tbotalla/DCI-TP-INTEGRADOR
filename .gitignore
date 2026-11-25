@@ -39,6 +39,7 @@ __pycache__/
 venv/
 
 # --- SO / editor ---
+.idea/
 .DS_Store
 Thumbs.db
 *.swp
