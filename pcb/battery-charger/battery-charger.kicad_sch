@@ -9,6 +9,8 @@
 		(date "2026-11-16")
 		(rev "rev0")
 		(company "FIUBA")
+		(comment 1 "Autor: Tomás Enrique Botalla")
+		(comment 2 "Licencia: CERN-OHL-S-2.0")
 	)
 	(lib_symbols
 		(symbol "Battery_Management:DW01A"
@@ -2734,6 +2736,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 38.1) (xy 86.36 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ef4428a-43d8-4a3f-b9db-99321211731b")
+	)
+	(wire
+		(pts
 			(xy 210.82 88.9) (xy 210.82 115.57)
 		)
 		(stroke
@@ -2741,6 +2753,16 @@
 			(type default)
 		)
 		(uuid "613c1a7c-2c07-4825-89d4-cf00b756dbb9")
+	)
+	(wire
+		(pts
+			(xy 87.63 72.39) (xy 86.36 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66408765-fba7-4961-8314-6b02047d70ba")
 	)
 	(wire
 		(pts
@@ -2901,6 +2923,26 @@
 			(type default)
 		)
 		(uuid "9ade4cf7-c3d4-47f1-8e2b-e7755a173996")
+	)
+	(wire
+		(pts
+			(xy 231.14 87.63) (xy 231.14 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fb0ec58-b633-4133-a702-062cfafcfb4a")
+	)
+	(wire
+		(pts
+			(xy 214.63 87.63) (xy 214.63 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a26e378b-2b52-411a-9ed1-19ad7896a7eb")
 	)
 	(wire
 		(pts
@@ -3184,7 +3226,7 @@
 	)
 	(global_label "BAT+"
 		(shape input)
-		(at 254 88.9 90)
+		(at 259.08 88.9 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3194,7 +3236,7 @@
 		)
 		(uuid "480e08c3-fc76-426f-b21b-fa183e80cf80")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 254 81.0162 90)
+			(at 259.08 81.0162 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3232,7 +3274,7 @@
 	)
 	(global_label "BAT-"
 		(shape input)
-		(at 254 115.57 270)
+		(at 259.08 115.57 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3242,7 +3284,7 @@
 		)
 		(uuid "d0573fb2-0622-44bd-a48c-741a00451fb9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 254 123.4538 90)
+			(at 259.08 123.4538 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3414,7 +3456,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 214.63 88.9 0)
+		(at 214.63 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3425,7 +3467,7 @@
 		(fields_autoplaced yes)
 		(uuid "0e1529d9-c050-4bb0-987a-eb6a663cafc7")
 		(property "Reference" "#FLG04"
-			(at 214.63 86.995 0)
+			(at 214.63 85.725 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3436,7 +3478,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 214.63 83.82 0)
+			(at 214.63 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3446,7 +3488,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 214.63 88.9 0)
+			(at 214.63 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3457,7 +3499,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 214.63 88.9 0)
+			(at 214.63 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3468,7 +3510,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 214.63 88.9 0)
+			(at 214.63 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3567,7 +3609,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 86.36 38.1 270)
+		(at 87.63 38.1 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3578,7 +3620,7 @@
 		(fields_autoplaced yes)
 		(uuid "240b9522-4fba-4c75-b3f3-ab36c029a6bb")
 		(property "Reference" "#FLG01"
-			(at 88.265 38.1 0)
+			(at 89.535 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3589,7 +3631,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 90.17 38.0999 90)
+			(at 91.44 38.0999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3600,7 +3642,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 38.1 0)
+			(at 87.63 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3611,7 +3653,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 38.1 0)
+			(at 87.63 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3622,7 +3664,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 86.36 38.1 0)
+			(at 87.63 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3977,7 +4019,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 231.14 88.9 0)
+		(at 231.14 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3988,7 +4030,7 @@
 		(fields_autoplaced yes)
 		(uuid "383477c9-cdfd-4f35-ad5e-c8f8049f6f69")
 		(property "Reference" "#FLG03"
-			(at 231.14 86.995 0)
+			(at 231.14 85.725 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3999,7 +4041,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 231.14 83.82 0)
+			(at 231.14 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4009,7 +4051,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 231.14 88.9 0)
+			(at 231.14 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4020,7 +4062,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 231.14 88.9 0)
+			(at 231.14 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4031,7 +4073,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 231.14 88.9 0)
+			(at 231.14 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4648,7 +4690,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "18650"
+		(property "Value" "Keystone 1042"
 			(at 266.7 101.5999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5147,7 +5189,7 @@
 				)
 			)
 		)
-		(property "Value" "USB_C_Receptacle_PowerOnly_6P"
+		(property "Value" "USB4135-GF-A"
 			(at 53.34 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5398,7 +5440,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 86.36 72.39 270)
+		(at 87.63 72.39 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5409,7 +5451,7 @@
 		(fields_autoplaced yes)
 		(uuid "c44b27ee-8bff-40bb-8d43-c1ee8427521b")
 		(property "Reference" "#FLG02"
-			(at 88.265 72.39 0)
+			(at 89.535 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5420,7 +5462,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 90.17 72.3899 90)
+			(at 91.44 72.3899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5431,7 +5473,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 72.39 0)
+			(at 87.63 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5442,7 +5484,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 72.39 0)
+			(at 87.63 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5453,7 +5495,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 86.36 72.39 0)
+			(at 87.63 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

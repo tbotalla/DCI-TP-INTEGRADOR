@@ -1,4 +1,4 @@
-# Fuentes de datasheets — registro
+# Fuentes de datasheets - Registro
 
 Descargas realizadas el **2026-11-21** para el TP integrador DCI.
 
