@@ -1,8 +1,7 @@
 # Información de terceros - hojas de datos
 
 Copias locales de **datasheets** usadas para el cargador `pcb/battery-charger/`.  
-Los PDF corresponden a los circuitos integrados y al MOSFET dual del path de protección (no se incluyen pasivos
-genéricos ni el conector USB-C, según alcance del TP).
+Los PDF corresponden a los circuitos integrados y al MOSFET dual del path de protección.
 
 ## Archivos en este directorio
 
@@ -14,18 +13,10 @@ genéricos ni el conector USB-C, según alcance del TP).
 
 Detalle de fuentes y fecha de descarga: [fuentes-datasheets.md](fuentes-datasheets.md).
 
-## Huellas de paquete (referencia rápida)
+## Huellas de paquete
 
-| Ref | Símbolo / valor  | Paquete en diseño                   | Ver en datasheet             |
-|-----|------------------|-------------------------------------|------------------------------|
-| U1  | TP4056-42-ESOP8  | SOIC-8 + EP                         | TP4056, diagrama ESOP8       |
-| U2  | DW01A            | SOT-23-6                            | DW01A, pinout 6L             |
-| Q1  | FS8205A / FS8205 | TSSOP-8 o SOT-23-6 según fabricante | FS8205A, asignación de pines |
-
-El símbolo/huella custom **FS8205** en el proyecto propio debe coincidir con el pinout del fabricante que se use en
-fabricación (Fortune FS8205A es la referencia habitual en módulos TP4056+DW01).
-
-## Añadir más documentación
-
-Opcional para etapas de PCB: hoja de datos del **USB-C concreto** (`GCT USB4135` u otra) solo si el docente lo pide para
-conectores no estándar.
+| Ref | Símbolo / valor  | Paquete en diseño |
+|-----|------------------|-------------------|
+| U1  | TP4056-42-ESOP8  | SOIC-8 + EP       | 
+| U2  | DW01A            | SOT-23-6          | 
+| Q1  | FS8205A / FS8205 | **SOT-23-6**      |

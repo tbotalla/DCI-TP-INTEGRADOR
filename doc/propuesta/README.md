@@ -18,8 +18,7 @@ El diseño original de Cyclone-92 combina:
 
 Referencias complementarias (misma topología, explicación didáctica):
 
-- [Mischianti - Li-po battery charger with TP4056](https://mischianti.org/category/elettronica/elettronica-integrata/integrated/battery-charger/tp4056/)
-  (artículos y esquemas de apoyo).
+- [Mischianti - Li-po battery charger with TP4056](https://mischianti.org/tp4056-lipo-battery-charger-high-resolution-pinout-datasheet-and-specs/)
 
 ## Objetivo del circuito
 
@@ -60,21 +59,8 @@ Vistas tomadas del repositorio Cyclone-92 (atribución al autor original; uso ac
 - [TP4056-battery-charger-module-schema.pdf](TP4056-battery-charger-module-schema.pdf), esquemático declarado en el
   formulario (Mischianti).
 - [referencia-cyclone92.kicad_sch](referencia-cyclone92.kicad_sch), esquemático KiCad del proyecto Cyclone-92 (solo
-  consulta; el diseño entregable es `pcb/battery-charger/`).
+  de referencia, el diseño entregable es `pcb/battery-charger/`).
 
 ## Corriente de carga programada
 
-En el diseño propio, **R3 = 1,2 kΩ** en `PROG` del TP4056 (orden de magnitud ~1 A según hoja de datos; verificar cálculo
-en notas propias si el docente lo exige).
-
-## Notas para el formulario / checklist docente
-
-- **Título del diseño (KiCad):** `Cargador Li-ion TP4056` (incluir la palabra *réplica* en el rótulo del esquemático al
-  cerrar documentación, si la consigna lo pide).
-- **Datasheets de ICs relevantes:** copias en `info/` (ver [info/README.md](../../info/README.md)).
-- **Autor, email y licencia del repo:** ver [README.md](../../README.md) y [LICENSE](../../LICENSE) en la raíz del
-  repositorio.
-
----
-
-*Última actualización de esta carpeta: 2026-11-21.*
+En el diseño propio, **R3 = 1,2 kΩ** en `PROG` del TP4056 (orden de magnitud ~1 A según hoja de datos).
